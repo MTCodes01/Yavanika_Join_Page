@@ -1,20 +1,55 @@
 /* CSS styles */
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@300&display=swap');
 
-/* body */
+/* Body */
 body {
     background-color: black;
     color: white;
+}
+/* Heading */
+.heading {
+    text-align: center;
 }
 
 #top {
     margin: 0;
     padding: 101px 0px;
-    height: 1vh;
+    height: 0.1vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    text-align: center;
     font-family: "Inter";
     font-size: 66px;
+}
+
+#top1 {
+    margin: 0;
+    padding: 0px;
+    height: 0.1vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: "Inter";
+    font-size: 27px;
+}
+
+#bottom1 {
+    justify-content: center;
+    margin: 70px 0px 0px 700px;
+    height: 3vh;
+    display: inline-block;
+    border: 3px solid white;
+    padding: 10px 20px 10px 20px;
+    font-family: "Inter";
+    font-size: 17px;
+}
+/* Centre */
+.info {
+    margin: 10 10 10 10;
+    padding: 10px 10px;
+    height: 0.1vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter";
+    font-size: 24px;
 }
