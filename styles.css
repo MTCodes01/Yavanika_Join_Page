@@ -5,4 +5,39 @@
 body {
     background-color: black;
     color: white;
-} 
+}
+/* Heading */
+#top {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-family: "Inter";
+    font-size: 4vw;
+}
+#top1 {
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    font-family: "Inter";
+    font-size: 1.6vw;
+}
+/* Register */
+#reg1 {
+    position: absolute;
+    top: 28%;
+    left: 43%;
+    font-family: "Inter";
+    font-size: 1.3vw;
+    font-weight: 600;
+    border: 0.2vw solid white;
+    padding: 10px 20px 10px 20px;
+}
+/* Centre */
+#top2 {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    font-family: "Inter";
+    font-size: 1.6vw;
+    letter-spacing: 0.2vw;
+}
