@@ -5,18 +5,20 @@
 body {
     background-color: black;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 /* Heading */
 #top {
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 20%;
     font-family: "Inter";
     font-size: 4vw;
 }
 #top1 {
     position: absolute;
-    top: 20%;
+    top: 16%;
     left: 28%;
     font-family: "Inter";
     font-size: 1.6vw;
@@ -24,7 +26,7 @@ body {
 /* Register */
 #reg1 {
     position: absolute;
-    top: 28%;
+    top: 25%;
     left: 43%;
     font-family: "Inter";
     font-size: 1.3vw;
@@ -73,20 +75,24 @@ body {
     left: 29%;
     font-family: "Inter";
     font-size: 1.5vw;
+    color: white;
     background-color: black;
     border: 0.2vw solid rgb(206, 206, 206);
     font-weight: 300;
-    padding: 0.5vh 5vw 0.7vh 1vw ;
+    padding: 0.5vh 5vw 0.7vh 1vw;
+    width: 20%;
 }
 #register-button {
+    margin: 0;
     position: absolute;
-    top: 75.4%;
+    top: 78%;
     left: 57%;
     font-family: "Inter";
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     background-color: red;
-    border: 0.5vw solid red;
-    padding: 0.1vh 2vw 0.5vh 2vw;
+    border: 0.2vw solid red;
+    font-weight: 600;
+    padding: 0.5vh 2vw 0.7vh 2vw;
 }
 /* Terms */
 #terms_2 {
@@ -99,4 +105,257 @@ body {
 #terms-link {
     text-decoration: none;
     color: red;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1080px) {
+    #top {
+        top: ;
+    }
+
+    #top1 {
+        top: ;
+    }
+
+    #reg1 {
+        top: ;
+    }
+
+    #top2 {
+        top: ;
+    }
+
+    #bottom2 {
+        top: ;
+    }
+
+    #top3 {
+        top: ;
+    }
+
+    #bottom3 {
+        top: ;
+    }
+
+    #email-input {
+        top: ;
+    }
+
+    #register-button {
+        top: ;
+    }
+
+    #terms_2 {
+        top: ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #top {
+        top: ;
+    }
+
+    #top1 {
+        top: ;
+    }
+
+    #reg1 {
+        top: ;
+    }
+
+    #top2 {
+        top: ;
+    }
+
+    #bottom2 {
+        top: ;
+    }
+
+    #top3 {
+        top: ;
+    }
+
+    #bottom3 {
+        top: ;
+    }
+
+    #email-input {
+        top: ;
+    }
+
+    #register-button {
+        top: ;
+    }
+
+    #terms_2 {
+        top: ;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    #top {
+        top: ;
+    }
+
+    #top1 {
+        top: ;
+    }
+
+    #reg1 {
+        top: ;
+    }
+
+    #top2 {
+        top: ;
+    }
+
+    #bottom2 {
+        top: ;
+    }
+
+    #top3 {
+        top: ;
+    }
+
+    #bottom3 {
+        top: ;
+    }
+
+    #email-input {
+        top: ;
+    }
+
+    #register-button {
+        top: ;
+    }
+
+    #terms_2 {
+        top: ;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #top {
+        top: ;
+    }
+
+    #top1 {
+        top: ;
+    }
+
+    #reg1 {
+        top: ;
+    }
+
+    #top2 {
+        top: ;
+    }
+
+    #bottom2 {
+        top: ;
+    }
+
+    #top3 {
+        top: ;
+    }
+
+    #bottom3 {
+        top: ;
+    }
+
+    #email-input {
+        top: ;
+    }
+
+    #register-button {
+        top: ;
+    }
+
+    #terms_2 {
+        top: ;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    #top {
+        top: ;
+    }
+
+    #top1 {
+        top: ;
+    }
+
+    #reg1 {
+        top: ;
+    }
+
+    #top2 {
+        top: ;
+    }
+
+    #bottom2 {
+        top: ;
+    }
+
+    #top3 {
+        top: ;
+    }
+
+    #bottom3 {
+        top: ;
+    }
+
+    #email-input {
+        top: ;
+    }
+
+    #register-button {
+        top: ;
+    }
+
+    #terms_2 {
+        top: ;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #top {
+        top: ;
+    }
+
+    #top1 {
+        top: ;
+    }
+
+    #reg1 {
+        top: ;
+    }
+
+    #top2 {
+        top: ;
+    }
+
+    #bottom2 {
+        top: ;
+    }
+
+    #top3 {
+        top: ;
+    }
+
+    #bottom3 {
+        top: ;
+    }
+
+    #email-input {
+        top: ;
+    }
+
+    #register-button {
+        top: ;
+    }
+
+    #terms_2 {
+        top: ;
+    }
 }
