@@ -30,14 +30,73 @@ body {
     font-size: 1.3vw;
     font-weight: 600;
     border: 0.2vw solid white;
-    padding: 10px 20px 10px 20px;
+    padding: 1vh 2vw 1vh 2vw;
 }
 /* Centre */
 #top2 {
     position: absolute;
-    top: 40%;
-    left: 28%;
+    top: 35%;
+    left: 26%;
+    font-family: "Inter";
+    font-size: 5vw;
+    letter-spacing: 0.1vw;
+}
+
+#bottom2 {
+    position: absolute;
+    top: 47%;
+    left: 26%;
+    font-family: "Inter";
+    font-size: 5vw;
+    letter-spacing: 0.1vw;
+}
+/* Subscribe */
+#top3 {
+    position: absolute;
+    top: 65%;
+    left: 29%;
     font-family: "Inter";
     font-size: 1.6vw;
-    letter-spacing: 0.2vw;
+}
+
+#bottom3 {
+    position: absolute;
+    top: 68%;
+    left: 34%;
+    font-family: "Inter";
+    font-size: 1.6vw;
+}
+/* Register Input */
+#email-input {
+    position: absolute;
+    top: 78%;
+    left: 29%;
+    font-family: "Inter";
+    font-size: 1.5vw;
+    background-color: black;
+    border: 0.2vw solid rgb(206, 206, 206);
+    font-weight: 300;
+    padding: 0.5vh 5vw 0.7vh 1vw ;
+}
+#register-button {
+    position: absolute;
+    top: 75.4%;
+    left: 57%;
+    font-family: "Inter";
+    font-size: 1.3vw;
+    background-color: red;
+    border: 0.5vw solid red;
+    padding: 0.1vh 2vw 0.5vh 2vw;
+}
+/* Terms */
+#terms_2 {
+    position: absolute;
+    top: 83%;
+    left: 29%;
+    font-family: "Inter";
+    font-size: 0.7vw;
+}
+#terms-link {
+    text-decoration: none;
+    color: red;
 }
